@@ -23,13 +23,6 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     liangzi: { api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8', name: '量子资源', adult: false },
-    huaya: { api: 'https://www.huayazy.com/api.php/provide/vod/', name: '虎牙资源', adult: false },
-    uuk: { api: 'https://api.uukzy.com/api.php/provide/vod/', name: 'U酷资源', adult: false },
-    guangsu: { api: 'https://api.guangsuapi.com/api.php/provide/vod/', name: '光速资源', adult: false },
-    jisu: { api: 'https://jszyapi.com/api.php/provide/vod/', name: '极速资源', adult: false },
-    baofeng: { api: 'https://bfzyapi.com/api.php/provide/vod/', name: '暴风资源', adult: false },
-    xinlang: { api: 'https://api.xinlangapi.com/api.php/provide/vod/', name: '新浪资源', adult: false },
-    senlin: { api: 'https://slapiz.com/api.php/provide/vod/', name: '森林资源', adult: false }
     qiqi: { api: 'https://www.qiqidys.com/api.php/provide/vod/', name: '七七资源', adult: false },
     fantuan: { api: 'https://www.fantuan.tv/api.php/provide/vod/', name: '饭团影视', adult: false },
     feifan: { api: 'http://ffzyapi.com/api.php/provide/vod/from/ffm3u8', name: '非凡资源', adult: false },
@@ -38,7 +31,13 @@ const API_SITES = {
     kuaiche: { api: 'https://caiji.kczyapi.com/api.php/provide/vod/', name: '快车资源', adult: false },
     tiankong: { api: 'https://api.tiankongapi.com/api.php/provide/vod/', name: '天空资源', adult: false },
     yinghua: { api: 'https://m3u8.yhzyapi.com/api.php/provide/vod/', name: '樱花资源', adult: false },
-    sony: { api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8', name: '索尼资源', adult: false },
+    uuk: { api: 'https://api.uukzy.com/api.php/provide/vod/', name: 'U酷资源', adult: false },
+    guangsu: { api: 'https://api.guangsuapi.com/api.php/provide/vod/', name: '光速资源', adult: false },
+    jisu: { api: 'https://jszyapi.com/api.php/provide/vod/', name: '极速资源', adult: false },
+    baofeng: { api: 'https://bfzyapi.com/api.php/provide/vod/', name: '暴风资源', adult: false },
+    xinlang: { api: 'https://api.xinlangapi.com/api.php/provide/vod/', name: '新浪资源', adult: false },
+    huaya: { api: 'https://www.huayazy.com/api.php/provide/vod/', name: '虎牙资源', adult: false },
+    senlin: { api: 'https://slapiz.com/api.php/provide/vod/', name: '森林资源', adult: false },
     jinying: { api: 'https://jyzyapi.com/api.php/provide/vod/', name: '金鹰资源', adult: false }
 };
 
