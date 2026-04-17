@@ -27,6 +27,31 @@ const API_SITES = {
         name: '量子资源',
         adult: false
     },
+    1080p: {
+        api: 'https://api.1080zyku.com/inc/api.php/provide/vod',
+        name: '1080p资源',
+        adult: false
+    },
+    suoni: {
+        api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8',
+        name: '索尼资源',
+        adult: false
+    },
+    yingshi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '影视工厂',
+        adult: false
+    },
+    fantuan: {
+        api: 'https://www.fantuan.tv/api.php/provide/vod/',
+        name: '饭团影视',
+        adult: false
+    },
+    qiqi: {
+        api: 'https://www.qiqidys.com/api.php/provide/vod/',
+        name: '七七资源',
+        adult: false
+    },
     feifan: {
         api: 'http://ffzyapi.com/api.php/provide/vod/from/ffm3u8',
         name: '非凡资源',
