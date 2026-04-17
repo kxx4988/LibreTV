@@ -22,13 +22,23 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
+        name: '量子资源',
+        adult: false
+    },
+    feifan: {
+        api: 'http://ffzyapi.com/api.php/provide/vod/from/ffm3u8',
+        name: '非凡资源',
+        adult: false
+    },
+    hongniu: {
+        api: 'https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '红牛资源',
+        adult: false
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
+
 
 // 定义合并方法
 function extendAPISites(newSites) {
